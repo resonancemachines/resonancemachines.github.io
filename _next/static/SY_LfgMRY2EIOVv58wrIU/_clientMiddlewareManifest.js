@@ -1,0 +1,86 @@
+self.__MIDDLEWARE_MATCHERS = [
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(\\/?index|\\/?index\\.json|\\/?index(?:\\.rsc|\\.segments\\/.+\\.segment\\.rsc)))?[\\/#\\?]?$",
+    "originalSource": "/"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/feed(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/feed"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/feed(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/feed/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/teams(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/teams"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/teams(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/teams/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/ontology(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/ontology"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/ontology(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/ontology/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/marketplace(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/marketplace"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/marketplace(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/marketplace/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/settings(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/settings"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/settings(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/settings/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/drive(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/drive"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/drive(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/drive/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/governance(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/governance"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/governance(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/governance/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/agent(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/agent"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/agent(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/agent/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/admin"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/admin/(.*)"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/workflow(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/workflow"
+  },
+  {
+    "regexp": "^\\/resonance-machine(?:\\/(_next\\/data\\/[^/]{1,}))?\\/workflow(?:\\/(.*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+    "originalSource": "/workflow/(.*)"
+  }
+];self.__MIDDLEWARE_MATCHERS_CB && self.__MIDDLEWARE_MATCHERS_CB()
